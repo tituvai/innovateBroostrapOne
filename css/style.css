@@ -1,0 +1,251 @@
+/* All common Css File Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 0.8;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+/* All common Css File End */
+
+
+/* Header Part Start */
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff !important;
+    z-index: 8888;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 600;
+    color: #29313D;
+    font-family: "Open Sans", serif;
+   margin: 0 10px;
+}
+.nav-link:hover{
+    color: #8454F5;
+}
+.commonBtn a{
+    padding: 15px 30px;
+    background-color: #8454F5;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 15px;
+    font-family: "Nunito", serif;
+    color: #ffffff;
+}
+
+/* Header Part End */
+
+/* Banner Part Start */
+#bannerPart{
+background: url(../images/Header.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+padding-top: 270px;
+padding-bottom: 250px;
+}
+.bannerText h1{
+    font-size: 64px;
+    font-weight: 800;
+    color: #1D354F;
+    line-height: 65px;
+    font-family: "Open Sans", serif;
+}
+.bannerText p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+    font-family: "Nunito", serif;
+    line-height: 200%;
+    padding-right: 77px;
+   padding-top: 30px;
+   padding-bottom: 50px;
+}
+
+/* Banner Part End */
+
+
+/* Service Part Start */
+#servicePart{
+padding: 100px 0;
+}
+.commonTitle h3{
+    font-size: 46px;
+    font-weight: 600;
+    color: #29313D;
+    font-family: "Poppins", serif;
+}
+.commonTitle p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+    font-family: "Nunito", serif;
+    line-height: 200%;
+    padding-right: 187px;
+    padding-top: 30px;
+    /* padding-bottom: 30px; */
+}
+.serviceText{
+    padding: 30px 20px;
+    transition: 0.4s;
+}
+.serviceText:hover{
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(242,242,242,1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(242,242,242,1);
+    box-shadow: 0px 0px 20px 0px rgba(242,242,242,1);
+}
+.serviceText img{
+    border-radius: 25px;
+}
+.serviceText h4{
+    font-size: 27px;
+    font-weight: 600;
+    color: #29313D;
+    font-family: "Poppins", serif;
+    padding: 20px 0;
+}
+.serviceText p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #29313D;
+    font-family: "Nunito", serif;
+    line-height: 180%;
+    padding-bottom: 20px;
+}
+.serviceText a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #29313D;
+    font-family: "Nunito", serif;
+}
+/* Service Part End */
+
+
+/* Minutes Part Start */
+
+#minutresPart{
+    padding-top: 90px;
+    padding-bottom: 130px;
+}
+.mintesBg img{
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+.mintesBg{
+    position: relative;
+}
+.mintesImages{
+    position: absolute;
+    bottom: 5%;
+    left: 23%;
+}
+.mintesImages img{
+    width: 100%;
+}
+.minursText{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+/* Minutes Part End */
+
+
+/* Creative Part Start */
+#creativePart{
+    padding: 120px 0;
+    background: #F8FDFE;
+}
+
+.creativeImage img:hover{
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(242,242,242,1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(242,242,242,1);
+    box-shadow: 0px 0px 20px 0px rgba(242,242,242,1);
+}
+.creative{
+   padding-left: 185px;
+}
+.creativrFlex{
+    display: flex;
+    justify-content: space-around;
+}
+.creativeStop{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #4444;
+    
+}
+.creativeStops{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #6A55EA;
+    
+}
+/* Creative Part End */
+
+/* companies Part Start */
+
+#companiesPart{
+    padding: 130px 0;
+}
+.companiesIcon{
+    padding: 20px 30px;
+    background: #F3F7FD;
+    border-radius: 20px;
+}
+
+/* companies Part End */
+
+
+/* Trail Part Start */
+#trailPart{
+    background: #F8FDFE;
+    padding: 120px 0;
+}
+.trailUnder{
+    width: 50px;
+    height: 15px;
+    background: #aea9d1;
+    position: relative;
+    border-radius: 10px;
+}
+.trailGol{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #6A55EA;
+    position: absolute;
+    top: -5px;
+    right: 0;
+}
+.free{
+    border: 1px solid #29313D;
+}
+.basic h3{
+   font-size: 23px;
+   font-weight: 600;
+   color: #29313D;
+   font-family: "Poppins", serif;
+}
+.doller p{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* Trail Part End*/
