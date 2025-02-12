@@ -247,5 +247,231 @@ padding: 100px 0;
     font-size: 45px;
     font-weight: 700;
 }
+.trail{
+    border: 1px solid #000;
+    background: #fff;
+    padding: 20px 0 30px 30px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
 
+.baslc h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #29313D;
+    text-align: center;
+    font-family: "Poppins", serif;
+    line-height: 140%;
+    padding-bottom: 30px;
+    position: relative;
+}
+.baslc h3::after{
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    left: 43%;
+    bottom: 20px;
+   background: #6A55EA;
+   content: "";
+}
+.dolor{
+    font-size: 48px;
+    font-weight: 600;
+    color: #29313D;
+    font-family: "Poppins", serif;
+}
+
+.textTrail p{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Nunito", serif;
+    color: #29313D;
+}
 /* Trail Part End*/
+
+/* Resent Part Start */
+
+#resentPart{
+    padding: 100px 0;
+}
+.recentHeader h3{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #29313D;
+    padding-bottom: 20px;
+}
+.followIcon{
+    border-bottom: 1px solid #000;
+    padding-bottom: 50px;
+}
+.follow p{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #29313D;
+}
+.recentIcon{
+    background: #6A55EA;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+.recentIcon i{
+    color: #ffffff;
+    margin-top: 12px;
+}
+.recetntFont{
+    background: whitesmoke;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;  
+}
+.recetntFont i{
+    color: #000000;
+    margin-top: 12px;
+}
+.recentImg{
+    padding-bottom: 50px;
+}
+.innovat{
+    display: flex;
+}
+.innovat i{
+    font-size: 30px;
+    color: #d26c35;
+    padding-right: 10px;
+}
+.innovat p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    color: #29313D;
+    padding-top: 5px;
+}
+.recentText h3{
+    font-size: 31px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #29313D; 
+    line-height: 160%;
+   padding-left: 30px;
+   padding-right: 20px;
+}
+.recentText p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", serif;
+    color: #29313D; 
+    line-height: 200%; 
+    padding-left: 30px;
+    padding-right: 47px;
+    padding-top: 30px;
+}
+.recentText h4{
+    padding-left: 240px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #000000;
+    padding-bottom: 30px;
+}
+.seaveFlex{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.seaveText{
+    padding-left: 20px;
+}
+.seaveText h4{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #29313D; 
+    padding-bottom: 10px;
+}
+.seaveText p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", serif;
+    color: #29313D; 
+}
+
+
+
+/* Project Part Satrt */
+
+#projectPart{
+    padding: 123px 0;
+}
+.projectHeader{
+    padding: 150px 155px 150px 90px;
+    background: #6A55EA;
+    border-radius: 100px;
+}
+.projectText h2{
+    font-size: 37px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #FDFDFD; 
+    line-height: 140%;
+}
+.projectBtn{
+    padding: 20px 20px;
+    background: #ffffff;
+    border-radius: 20px;
+}
+.projectBtn a{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", serif;
+    color: #6A55EA;
+    margin-left: 18px;
+}
+
+/* Project Part End */
+
+/* Footer Part Start */
+
+#footerPart{
+    padding-top: 130px;
+    padding-bottom: 63px;
+}
+.footerLogo p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", serif;
+    line-height: 180%; 
+    color: #29313D; 
+    padding-top: 30px;
+}
+.footerText{
+    padding-left: 38px;
+}
+.footerText h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #29313D;
+    font-family: "Open Sans", serif;
+    line-height: 140%;
+}
+.footerText p{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Nunito", serif;
+    line-height: 120%; 
+    color: #29313D; 
+    padding-top: 30px;
+}
+.footerSall p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", serif;
+    color: #29313D;  
+}
