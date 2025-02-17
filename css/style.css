@@ -204,10 +204,18 @@ padding: 100px 0;
 #companiesPart{
     padding: 130px 0;
 }
-.companiesIcon{
-    padding: 20px 30px;
-    background: #F3F7FD;
+.companiesFlex{
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.companiesText{
+    width: 210px;
+    padding: 30px 20px 30px 35px;
+    background: #C4C4C4;
     border-radius: 20px;
+}
+.companiesText img{
+    width: 80%;
 }
 
 /* companies Part End */
@@ -237,20 +245,15 @@ padding: 100px 0;
 .free{
     border: 1px solid #29313D;
 }
-.basic h3{
-   font-size: 23px;
-   font-weight: 600;
-   color: #29313D;
-   font-family: "Poppins", serif;
+
+.trailFlex{
+    justify-content: space-between;
 }
-.doller p{
-    font-size: 45px;
-    font-weight: 700;
-}
-.trail{
+
+.trailCrad{
     border: 1px solid #000;
     background: #fff;
-    padding: 20px 0 30px 30px;
+    padding: 20px 0 30px 20px;
     border-radius: 20px;
     -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
@@ -276,7 +279,7 @@ padding: 100px 0;
    background: #6A55EA;
    content: "";
 }
-.dolor{
+.dolor p{
     font-size: 48px;
     font-weight: 600;
     color: #29313D;

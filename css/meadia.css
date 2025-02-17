@@ -1,0 +1,174 @@
+
+
+ /* Extra large devices  */
+@media (min-width: 1200px) {}
+
+ /* Large devices  */
+ @media (min-width: 992px) and (max-width: 1199.98px) {}
+
+ /* Medium devices  */
+ @media (min-width: 768px) and (max-width: 991.98px) {}
+
+ /* Small devices  */
+ @media (min-width: 576px) and (max-width: 767.98px) {}
+
+ /* Extra small devices */
+ @media (max-width: 575.98px) {
+    .navbar-toggler i{
+        color: blueviolet;
+        font-size: 30px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: blueviolet;
+        padding: 10px 0;
+        border-radius: 15px;
+    }
+
+    .nav-link {
+        color: #ffffff;
+    }
+
+    /* banner Part Start */
+
+    #bannerPart {
+        padding-top: 177px;
+        padding-bottom: 89px;
+    }
+    .bannerText{
+        text-align: center;
+    }
+    .commonTitle h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .commonTitle p {
+        text-align: center;
+        padding: 0;
+        font-size: 17px;
+    }
+    .serviceText h4 {
+        font-size: 20px;
+        padding: 14px 0;
+    }
+    .serviceText{
+        text-align: center;
+    }
+    .serviceText p {
+        font-size: 13px;
+    }
+    .serviceText a {
+        font-size: 12px;
+    }
+    .creativeImage{
+        text-align: center;
+    }
+    .creativeImage img{
+        padding-top: 20px;
+    }
+    .creativrFlex {
+        padding: 0 245px;
+    }
+    .common {
+        padding-top: 44px;
+        text-align: center;
+    }
+    .companiesFlex {
+        justify-content: space-around;
+    }
+    .companiesText {
+        margin: 10px 0;
+    }
+    #companiesPart {
+        padding: 20px 0;
+    }
+
+   .trailUnder {
+    margin: 0 auto;
+}
+
+.trailFlex {
+    margin: 0 auto;
+}
+.baslc h3::after {
+    left: 45%;
+}
+.recentHeader h3 {
+    text-align: center;
+}
+
+.mintesBg{
+    margin-left: 30px;
+    padding-bottom: 30px;
+}
+#creativePart {
+    padding: 34px 0;
+}
+.creativeImage img {
+    padding-bottom: 20px;
+}
+#trailPart {
+    padding: 50px 0;
+}
+
+
+
+.follow p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.recentIcon {
+    margin: 0 auto;
+}
+.recetntFont {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+.recentImg {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.commonBtn {
+    text-align: center;
+    padding: 10px 0 40px 0;
+}
+.recentText h3 {
+    text-align: center;
+}
+.innovat {
+    padding-left: 30px;
+}
+.innovatImg {
+    padding-left: 50px;
+}
+
+#projectPart {
+    padding: 61px 0;
+}
+
+.projectHeader {
+    padding: 49px 149px 89px 73px;
+    border-radius: 60px;
+}
+.projectBtn a {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 18px;
+    margin-left: 110px;
+}
+#footerPart {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footerLogo {
+    padding-left: 30px;
+}
+
+
+ }
