@@ -169,6 +169,20 @@
 .footerLogo {
     padding-left: 30px;
 }
-
+.footerText h3 {
+    padding-top: 20px;
+}
+.footerText p {
+    font-size: 15px;
+    padding-top: 10px;
+}
+.sallFlex {
+    display: flex;
+    justify-content: space-between;
+}
+.footerSall p {
+    font-size: 14px;
+    font-weight: 500;
+}
 
  }
